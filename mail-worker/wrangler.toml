@@ -41,7 +41,7 @@ crons = ["0 * * * *"]	#每小时执行；resetDaySendCount 仅在 UTC 0 点生�
 #orm_log = false			#是否sql日志
    domain = ["fluxprime.store"]
    admin = "pasha@fluxprime.store"		
-#jwt_secret = "k8Hq2mZx7PwL4vNc9RtB5eYj3Ua6DsFg"			#jwt令牌的密钥,随便填一串字符串
+#jwt_secret = ""			#jwt令牌的密钥,随便填一串字符串
 
 [build]
 command = "pnpm --prefix ../mail-vue install && pnpm --prefix ../mail-vue run build"
